@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story - Nandika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fdfbf7; }
+        .serif-font { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="text-stone-800 antialiased">
+
+    <section class="min-h-screen flex flex-col justify-center items-center px-6 text-center relative bg-[url('background.png')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-white/30 pointer-events-none"></div>
+
+        <div class="relative z-10 flex flex-col items-center">
+            <span class="text-xs uppercase tracking-widest text-stone-600 mb-4 tracking-[0.2em] animate-pulse font-semibold">
+                Welcome, Nandika
+            </span>
+
+            <h1 class="serif-font text-4xl md:text-6xl font-light text-stone-900 tracking-tight max-w-3xl leading-tight mb-12">
+                Every chapter has a turning point, but ours is my absolute favorite story.
+            </h1>
+
+            <a href="journal.html" class="group flex flex-col items-center gap-3 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                <span class="text-xs font-medium uppercase tracking-[0.15em] text-stone-700 group-hover:text-rose-600 transition-colors duration-300">
+                    Read My Journal
+                </span>
+                <div class="w-10 h-10 rounded-full border border-stone-300 bg-white flex items-center justify-center text-stone-500 group-hover:border-rose-400 group-hover:text-rose-500 shadow-sm transition-all duration-300">
+                    <i class="fa-solid fa-chevron-right text-xs mt-0.5 ml-0.5 group-hover:translate-x-0.5 transition-transform"></i>
+                </div>
+            </a>
+        </div>
+
+        <div class="w-px h-12 bg-stone-300 absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10"></div>
+    </section>
+
+</body>
+</html>
